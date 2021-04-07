@@ -1,0 +1,36 @@
+{
+  "translations" : {
+    "DE" : {
+      "name" : "Vor 3 Mon aten",
+      "category" : "Daten",
+      "comment" : "Zeigt das Dat um von vor 3 Monaten an"
+    },
+    "EN" : {
+      "name" : "1 quarter ago",
+      "category" : "Dates",
+      "comment" : "Returns the date 3 months ago"
+    },
+    "IT" : {
+      "name" : "3 mesi fa",
+      "category" : "Date",
+      "comment" : "Restituisce la data 3 mesi fa"
+    },
+    "FR" : {
+      "name" : "Il y a 1 trimestre",
+      "category" : "Dates",
+      "comment" : "Renvoie la date d'il y a 3 mois"
+    },
+    "NL" : {
+      "name" : "3 maanden geleden",
+      "category" : "Datum",
+      "comment" : "Geeft de datum van 3 maanden geleden"
+    }
+  },
+  "name" : "1 quarter ago",
+  "category" : "Dates",
+  "comment" : "Returns the date 3 months ago",
+  "sql" : "DATE_SUB(current_date,interval 3 month)",
+  "path" : "shared.1_quarter_ago",
+  "type" : "DATE",
+  "company" : "bank_demo"
+}

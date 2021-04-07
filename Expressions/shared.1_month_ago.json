@@ -1,0 +1,37 @@
+{
+  "translations" : {
+    "DE" : {
+      "name" : "Vor 1 Monat",
+      "category" : "Daten",
+      "comment" : "Zeigt das Datum von vor 1 Mo nat an"
+    },
+    "EN" : {
+      "name" : "1 mo  nth ago",
+      "category" : "Date s",
+      "comment" : "Returns the date 1 month ago"
+    },
+    "IT" : {
+      "name" : "1 mese fa",
+      "category" : "Date",
+      "comment" : "Restituisce la data 1 mese fa"
+    },
+    "FR" : {
+      "name" : "Il y a 1 mois",
+      "category" : "Dates",
+      "comment" : "Renvoie la date d'il y a un mois"
+    },
+    "NL" : {
+      "name" : "1 maand geleden",
+      "category" : "Datum",
+      "comment" : "Geeft de datum van een maand geleden"
+    }
+  },
+  "name" : "1 month ago new ",
+  "category" : "Dates",
+  "comment" : "Returns the date 1 month ago",
+  "sql" : "DATE_SUB(current_date,interval 1 month)",
+  "path" : "shared.1_month_ago",
+  "type" : "DATE",
+  "company" : "bank_demo",
+  "null_passthrough" : true
+}
